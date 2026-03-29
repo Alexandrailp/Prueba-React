@@ -1,6 +1,6 @@
 # React + Vite
 
-                                                                                - Proyecto desarrollado con React + Vite.
+- Proyecto desarrollado con React + Vite.
 
 - 📌 Funcionalidades
 
@@ -9,6 +9,6 @@
 * Cards de pizzas dinámicas mediante props
 * Diseño responsive con Bootstrap
 
--✨ Autor
+- ✨ Autor
 
 Alexandra Lara
