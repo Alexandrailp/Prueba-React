@@ -12,7 +12,7 @@ const Home = () => {
             <div className="row">
                 <div className="col-12 col-md-4 mb-4">   
                     <CardPizza
-                        name="Napolitana"
+                        name="Pizza Napolitana"
                         price={5950}
                         ingredients={["mozzarella", "tomates", "jamón", "orégano"]}
                         img={napolitana}
@@ -20,7 +20,7 @@ const Home = () => {
                 </div>
                 <div className="col-12 col-md-4 mb-4">  
                     <CardPizza
-                        name="Española"
+                        name="Pizza Española"
                         price={6950}
                         ingredients={["mozzarella", "aceitunas", "tomate", "salchicha italiana"]}
                         img={española}
@@ -28,7 +28,7 @@ const Home = () => {
                 </div>
                 <div className="col-12 col-md-4 mb-4">
                     <CardPizza
-                        name="Margarita"
+                        name="Pizza Margarita"
                         price={6950}
                         ingredients={["mozzarella", "tomate", "albahaca"]}
                         img={margarita}   

@@ -3,22 +3,28 @@ const Navbar = () => {
   const token = false;
 
   return (
-    <nav>
-      <button>🍕 Home</button>
+    <nav className="navbar navbar-dark bg-dark px-4 py-3">
+      <span className="navbar-brand">🍕 Mamma Mia</span>
 
-      {token ? (
-        <>
-          <button>🔓 Profile</button>
-          <button>🔒 Logout</button>
-        </>
-      ) : (
-        <>
-          <button>🔐 Login</button>
-          <button>🔐 Register</button>
-        </>
-      )}
+      <div>
+        <button className="btn btn-outline-light me-2">Home</button>
 
-      <button>🛒 Total: ${total.toLocaleString("es-CL")}</button>
+        {token ? (
+          <>
+            <button className="btn btn-outline-light me-2">Profile</button>
+            <button className="btn btn-outline-light me-2">Logout</button>
+          </>
+        ) : (
+          <>
+            <button className="btn btn-outline-light me-2">Login</button>
+            <button className="btn btn-outline-light me-2">Register</button>
+          </>
+        )}
+
+        <button className="btn btn-warning">
+          🛒 ${total.toLocaleString("es-CL")}
+        </button>
+      </div>
     </nav>
   );
 };
